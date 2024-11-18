@@ -25,10 +25,7 @@ fn main() {
         image.set_height_request(128);
         vbox.append(&image);
 
-        let heading = gtk::Label::new(Some(
-            "NinitArch: Ninite for Arch Linux
-",
-        ));
+        let heading = gtk::Label::new(Some("NinitArch: Ninite for Arch Linux"));
         heading.add_css_class("heading");
         vbox.append(&heading);
 
